@@ -1,1 +1,1 @@
-# Dyalog-mode
+# dyalog-mode
