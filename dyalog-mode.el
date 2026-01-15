@@ -1,4 +1,4 @@
-;;; apl-keyboard-standalone.el --- Standalone GNU APL keyboard display -*- lexical-binding: t -*-
+;;; dyalog-mode.el
 
 ;; This is a standalone version of the gnu-apl-show-keyboard functionality
 ;; extracted from gnu-apl-mode for personal use.
