@@ -5,3 +5,8 @@
     (with-current-buffer (get-buffer "*Dyalog*")
       (insert line)
       (comint-send-input))))
+
+(define-key
+  gnu-apl-mode-map
+  (kbd "TAB")
+  #'my-send-line-to-dyalog)
