@@ -60,101 +60,115 @@
 
 (defvar apl-dot--transcription-alist
   '(;; Top row
-    (".`" . "⋄")    ; diamond
-    (".1" . "¨")    ; diaeresis
-    (".!" . "⌶")    ; i-beam
-    (".2" . "¯")    ; macron
-    (".@" . "⍫")    ; del-tilde
-    (".3" . "<")    ; less-than
-    (".#" . "⍒")    ; del-stile
-    (".4" . "≤")    ; less-than-or-equal-to
-    (".$" . "⍋")    ; delta-stile
-    (".5" . "=")    ; equals
-    (".%" . "⌽")    ; circle-stile
-    (".6" . "≥")    ; greater-than-or-equal-to
-    (".^" . "⍉")    ; circle-backslash
-    (".7" . ">")    ; greater-than
-    (".&" . "⊖")    ; circled-minus
-    (".8" . "≠")    ; not-equal-to
-    (".*" . "⍟")    ; circle-star
-    (".9" . "∨")    ; logical-or
-    (".(" . "⍱")    ; down-caret-tilde
-    (".0" . "∧")    ; logical-and
-    (".)" . "⍲")    ; up-caret-tilde
-    (".-" . "×")    ; multiplication-sign
-    ("._" . "!")    ; exclamation-mark
-    (".=" . "÷")    ; division-sign
-    (".+" . "⌹")    ; quad-divide
+    ("``" . "⋄")    ; diamond
+    ("`1" . "¨")    ; diaeresis
+    ("`!" . "⌶")    ; i-beam
+    ("`2" . "¯")    ; macron
+    ("`@" . "⍫")    ; del-tilde
+    ("`3" . "<")    ; less-than
+    ("`#" . "⍒")    ; del-stile
+    ("`4" . "≤")    ; less-than-or-equal-to
+    ("`$" . "⍋")    ; delta-stile
+    ("`5" . "=")    ; equals
+    ("`%" . "⌽")    ; circle-stile
+    ("\\reverse" . "⌽")    ; circle-stile
+    ("\\reversal" . "⌽")    ; circle-stile
+    ("`6" . "≥")    ; greater-than-or-equal-to
+    ("`^" . "⍉")    ; circle-backslash
+    ("`7" . ">")    ; greater-than
+    ("`&" . "⊖")    ; circled-minus
+    ("`8" . "≠")    ; not-equal-to
+    ("`*" . "⍟")    ; circle-star
+    ("`9" . "∨")    ; logical-or
+    ("`(" . "⍱")    ; down-caret-tilde
+    ("`0" . "∧")    ; logical-and
+    ("`)" . "⍲")    ; up-caret-tilde
+    ("`-" . "×")    ; multiplication-sign
+    ("`_" . "!")    ; exclamation-mark
+    ("`=" . "÷")    ; division-sign
+    ("\\div" . "÷")    ; division-sign
+    ("`+" . "⌹")    ; quad-divide
 
     ;; First row
-    (".q" . "?")    ; question-mark
-    (".w" . "⍵")    ; omega
-    (".W" . "⍹")    ; omega-underbar
-    (".e" . "∊")    ; epsilon
-    (".E" . "⍷")    ; epsilon-underbar
-    (".r" . "⍴")    ; rho
-    (".t" . "∼")    ; tilde
-    (".T" . "⍨")    ; tilde-diaeresis
-    (".y" . "↑")    ; uparrow
-    (".Y" . "¥")    ; yen-sign
-    (".u" . "↓")    ; downarrow
-    (".i" . "⍳")    ; iota
-    (".I" . "⍸")    ; iota-underbar
-    (".o" . "○")    ; circle
-    (".O" . "⍥")    ; circle-diaeresis
-    (".p" . "⋆")    ; star-operator
-    (".P" . "⍣")    ; star-diaeresis
-    (".[" . "←")    ; leftarrow
-    (".{" . "⍞")    ; quote-quad
-    (".]" . "→")    ; rightarrow
-    (".}" . "⍬")    ; zilde
-    (".\\" . "⊢")   ; right-tack
-    (".|" . "⊣")    ; left-tack
+    ("`q" . "?")    ; question-mark
+    ("`w" . "⍵")    ; omega
+    ("`W" . "⍹")    ; omega-underbar
+    ("`e" . "∊")    ; epsilon
+    ("`E" . "⍷")    ; epsilon-underbar
+    ("\\rho" . "⍴")
+    ("\\reshape" . "⍴")
+    ("\\shape" . "⍴")
+    ("`t" . "∼")    ; tilde
+    ("`T" . "⍨")    ; tilde-diaeresis
+    ("\\commute" . "⍨")    ; tilde-diaeresis
+    ("`y" . "↑")    ; uparrow
+    ("\\up" . "↑")    ; uparrow
+    ("\\mix" . "↑")    ; uparrow
+    ("\\take" . "↑")    ; uparrow
+    ("`Y" . "¥")    ; yen-sign
+    ("`u" . "↓")    ; downarrow
+    ("`i" . "⍳")    ; iota
+    ("`I" . "⍸")    ; iota-underbar
+    ("`o" . "○")    ; circle
+    ("`O" . "⍥")    ; circle-diaeresis
+    ("`p" . "⋆")    ; star-operator
+    ("`P" . "⍣")    ; star-diaeresis
+    ("`[" . "←")    ; leftarrow
+    ("\\gets" . "←")    ; leftarrow
+    ("`{" . "⍞")    ; quote-quad
+    ("\\quotequad" . "⍞")
+    ("`]" . "→")    ; rightarrow
+    ("`}" . "⍬")    ; zilde
+    ("`\\" . "⊢")   ; right-tack
+    ("`|" . "⊣")    ; left-tack
 
     ;; Second row
-    (".a" . "⍺")    ; alpha
-    (".A" . "⍶")    ; alpha-underbar
-    (".s" . "⌈")    ; left-ceiling
-    (".d" . "⌊")    ; left-floor
-    (".f" . "_")    ; underscore
-    (".F" . "⍫")    ; del-tilde
-    (".g" . "∇")    ; nabla
-    (".h" . "∆")    ; increment
-    (".H" . "⍙")    ; delta-underbar
-    (".j" . "∘")    ; ring-operator
-    (".J" . "⍤")    ; jot-diaeresis
-    (".k" . "'")    ; apostrophe
-    (".K" . "⌺")    ; quad-diamond
-    (".l" . "⎕")    ; quad
-    (".L" . "⌷")    ; squish-quad
-    (".;" . "⍎")    ; down-tack-jot
-    (".:" . "≡")    ; identical-to
-    (".'" . "⍕")    ; up-tack-jot
-    (".\"" . "≢")   ; not-identical-to
+    ("`a" . "⍺")    ; alpha
+    ("`A" . "⍶")    ; alpha-underbar
+    ("`s" . "⌈")    ; left-ceiling
+    ("`d" . "⌊")    ; left-floor
+    ("`f" . "_")    ; underscore
+    ("`F" . "⍫")    ; del-tilde
+    ("`g" . "∇")    ; nabla
+    ("`h" . "∆")    ; increment
+    ("`H" . "⍙")    ; delta-underbar
+    ("`j" . "∘")    ; ring-operator
+    ("`J" . "⍤")    ; jot-diaeresis
+    ("`k" . "'")    ; apostrophe
+    ("`K" . "⌺")    ; quad-diamond
+    ("`l" . "⎕")    ; quad
+    ("\\quad" . "⎕")    ; quad
+    ("`L" . "⌷")    ; squish-quad
+    ("`;" . "⍎")    ; down-tack-jot
+    ("`:" . "≡")    ; identical-to
+    ("`'" . "⍕")    ; up-tack-jot
+    ("`\"" . "≢")   ; not-identical-to
+    ("`\\tally" . "≢")
 
     ;; Third row
-    (".z" . "⊂")    ; subset-of
-    (".x" . "⊃")    ; superset-of
-    (".X" . "χ")    ; greek-letter-chi
-    (".c" . "∩")    ; intersection
-    (".C" . "⍧")    ; left-shoe-stile
-    (".v" . "∪")    ; union
-    (".b" . "⊥")    ; up-tack
-    (".B" . "£")    ; pound-sign
-    (".n" . "⊤")    ; down-tack
-    (".m" . "|")    ; divides
-    (".," . "⍝")    ; shoe-jot
-    (".<" . "⍪")    ; comma-bar
-    (".>" . "⍀")    ; backslash-bar
-    ("./" . "⌿")    ; slash-bar
-    (".?" . "⍠")    ; quad-colon
+    ("`z" . "⊂")    ; subset-of
+    ("\\enclose" . "⊂")
+    ("`x" . "⊃")    ; superset-of
+    ("`X" . "χ")    ; greek-letter-chi
+    ("`c" . "∩")    ; intersection
+    ("`C" . "⍧")    ; left-shoe-stile
+    ("`v" . "∪")    ; union
+    ("`b" . "⊥")    ; up-tack
+    ("`B" . "£")    ; pound-sign
+    ("`n" . "⊤")    ; down-tack
+    ("`m" . "|")    ; divides
+    ("\\lantern" . "⍝")    ; shoe-jot
+    ("`<" . "⍪")    ; comma-bar
+    ("`>" . "⍀")    ; backslash-bar
+    ("`/" . "⌿")    ; slash-bar
+    ("`?" . "⍠")    ; quad-colon
 
     ;; Extras (mapped to reasonable keys)
-    (".pi" . "π")   ; pi
-    (".rt" . "√")   ; root
-    (".ie" . "¡")   ; inverted-exclamation-mark
-    (".qb" . "⍂")   ; quad-backslash
-    (".iq" . "¿")   ; inverted-question-mark
+    ("`pi" . "π")   ; pi
+    ("`rt" . "√")   ; root
+    ("`ie" . "¡")   ; inverted-exclamation-mark
+    ("`qb" . "⍂")   ; quad-backslash
+    ("`iq" . "¿")   ; inverted-question-mark
     ))
 
 (quail-select-package "apl-dot")
@@ -174,3 +188,16 @@
      (comint-send-string proc "\r"))))
 
 (pop-to-buffer "*Dyalog*")
+
+(defun my-send-line-to-dyalog ()
+  (interactive)
+
+  (let ((line (string-trim (thing-at-point 'line t))))
+    (with-current-buffer (get-buffer "*Dyalog*")
+      (insert line)
+      (comint-send-input))))
+
+(define-key
+ gnu-apl-mode-map
+ (kbd "TAB")
+ #'my-send-line-to-dyalog)
