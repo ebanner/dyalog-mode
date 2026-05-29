@@ -157,7 +157,8 @@
     ("`B" . "£")    ; pound-sign
     ("`n" . "⊤")    ; down-tack
     ("`m" . "|")    ; divides
-    ("\\lantern" . "⍝")    ; shoe-jot
+    ("\\lantern" . "⍝")
+    ("\\lamp" . "⍝")
     ("`<" . "⍪")    ; comma-bar
     ("`>" . "⍀")    ; backslash-bar
     ("`/" . "⌿")    ; slash-bar
