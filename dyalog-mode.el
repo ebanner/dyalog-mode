@@ -68,12 +68,14 @@
     ("`3" . "<")    ; less-than
     ("`#" . "⍒")    ; del-stile
     ("`4" . "≤")    ; less-than-or-equal-to
+    ("\\leq" . "≤")    ; less-than-or-equal-to
     ("`$" . "⍋")    ; delta-stile
     ("`5" . "=")    ; equals
     ("`%" . "⌽")    ; circle-stile
     ("\\reverse" . "⌽")    ; circle-stile
     ("\\reversal" . "⌽")    ; circle-stile
     ("`6" . "≥")    ; greater-than-or-equal-to
+    ("\\geq" . "≥")    ; greater-than-or-equal-to
     ("`^" . "⍉")    ; circle-backslash
     ("`7" . ">")    ; greater-than
     ("`&" . "⊖")    ; circled-minus
@@ -84,6 +86,7 @@
     ("`0" . "∧")    ; logical-and
     ("`)" . "⍲")    ; up-caret-tilde
     ("`-" . "×")    ; multiplication-sign
+    ("\\times" . "×")    ; multiplication-sign
     ("`_" . "!")    ; exclamation-mark
     ("`=" . "÷")    ; division-sign
     ("\\div" . "÷")    ; division-sign
@@ -108,6 +111,7 @@
     ("`Y" . "¥")    ; yen-sign
     ("`u" . "↓")    ; downarrow
     ("`i" . "⍳")    ; iota
+    ("\\iota" . "⍳")    ; iota
     ("`I" . "⍸")    ; iota-underbar
     ("`o" . "○")    ; circle
     ("`O" . "⍥")    ; circle-diaeresis
@@ -119,7 +123,7 @@
     ("\\quotequad" . "⍞")
     ("`]" . "→")    ; rightarrow
     ("`}" . "⍬")    ; zilde
-    ("`\\" . "⊢")   ; right-tack
+    ("\\righttack" . "⊢")
     ("`|" . "⊣")    ; left-tack
 
     ;; Second row
