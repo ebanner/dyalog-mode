@@ -98,6 +98,7 @@
     ("`W" . "⍹")    ; omega-underbar
     ("`e" . "∊")    ; epsilon
     ("\\epsilon" . "∊")    ; epsilon
+    ("\\enlist" . "∊")    ; epsilon
     ("`E" . "⍷")    ; epsilon-underbar
     ("\\rho" . "⍴")
     ("\\reshape" . "⍴")
