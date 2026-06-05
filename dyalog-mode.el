@@ -125,6 +125,7 @@
     ("<-" . "←")    ; leftarrow
     ("`{" . "⍞")    ; quote-quad
     ("\\quotequad" . "⍞")
+    ("\\qq" . "⍞")
     ("`]" . "→")    ; rightarrow
     ("`}" . "⍬")    ; zilde
     ("\\righttack" . "⊢")
