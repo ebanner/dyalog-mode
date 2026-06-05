@@ -121,6 +121,8 @@
     ("`P" . "⍣")    ; star-diaeresis
     ("`[" . "←")    ; leftarrow
     ("\\gets" . "←")    ; leftarrow
+    ("\\=" . "←")    ; leftarrow
+    ("<-" . "←")    ; leftarrow
     ("`{" . "⍞")    ; quote-quad
     ("\\quotequad" . "⍞")
     ("`]" . "→")    ; rightarrow
