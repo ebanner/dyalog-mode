@@ -199,6 +199,12 @@
 
 (pop-to-buffer "*Dyalog*")
 
+(set-input-method "apl-dot")
+
+(add-hook 'gnu-apl-mode-hook
+          (lambda ()
+            (set-input-method "apl-dot")))
+
 (defun my-send-line-to-dyalog ()
   (interactive)
 
