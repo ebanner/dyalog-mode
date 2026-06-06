@@ -64,6 +64,7 @@
     ("`1" . "¨")    ; diaeresis
     ("`!" . "⌶")    ; i-beam
     ("`2" . "¯")    ; macron
+    ("\\minus" . "¯")    ; macron
     ("`@" . "⍫")    ; del-tilde
     ("`3" . "<")    ; less-than
     ("`#" . "⍒")    ; del-stile
@@ -101,6 +102,7 @@
     ("\\enlist" . "∊")    ; epsilon
     ("`E" . "⍷")    ; epsilon-underbar
     ("\\rho" . "⍴")
+    ("\\tile" . "⍴")
     ("\\reshape" . "⍴")
     ("\\shape" . "⍴")
     ("`t" . "∼")    ; tilde
@@ -158,6 +160,7 @@
     ("`z" . "⊂")    ; subset-of
     ("\\enclose" . "⊂")
     ("`x" . "⊃")    ; superset-of
+    ("\\pick" . "⊃")    ; superset-of
     ("`X" . "χ")    ; greek-letter-chi
     ("`c" . "∩")    ; intersection
     ("`C" . "⍧")    ; left-shoe-stile
