@@ -61,13 +61,16 @@
 (defvar apl-dot--transcription-alist
   '(;; Top row
     ("``" . "⋄")    ; diamond
+    ("\\diamond" . "⋄")    ; diamond
     ("`1" . "¨")    ; diaeresis
+    ("\\each" . "¨")    ; diaeresis
     ("`!" . "⌶")    ; i-beam
     ("`2" . "¯")    ; macron
     ("\\minus" . "¯")    ; macron
     ("`@" . "⍫")    ; del-tilde
     ("`3" . "<")    ; less-than
     ("`#" . "⍒")    ; del-stile
+    ("\\gradedown" . "⍒")    ; del-stile
     ("`4" . "≤")    ; less-than-or-equal-to
     ("\\leq" . "≤")    ; less-than-or-equal-to
     ("`$" . "⍋")    ; delta-stile
@@ -81,13 +84,16 @@
     ("`7" . ">")    ; greater-than
     ("`&" . "⊖")    ; circled-minus
     ("`8" . "≠")    ; not-equal-to
+    ("\\neq" . "≠")    ; not-equal-to
     ("`*" . "⍟")    ; circle-star
     ("`9" . "∨")    ; logical-or
+    ("\\or" . "∨")    ; logical-or
     ("`(" . "⍱")    ; down-caret-tilde
     ("`0" . "∧")    ; logical-and
     ("`)" . "⍲")    ; up-caret-tilde
     ("`-" . "×")    ; multiplication-sign
     ("\\times" . "×")    ; multiplication-sign
+    ("\\signum" . "×")    ; multiplication-sign
     ("`_" . "!")    ; exclamation-mark
     ("`=" . "÷")    ; division-sign
     ("\\div" . "÷")    ; division-sign
@@ -96,11 +102,13 @@
     ;; First row
     ("`q" . "?")    ; question-mark
     ("`w" . "⍵")    ; omega
+    ("\\omega" . "⍵")    ; omega
     ("`W" . "⍹")    ; omega-underbar
     ("`e" . "∊")    ; epsilon
     ("\\epsilon" . "∊")    ; epsilon
     ("\\enlist" . "∊")    ; epsilon
     ("`E" . "⍷")    ; epsilon-underbar
+    ("\\find" . "⍷")    ; epsilon-underbar
     ("\\rho" . "⍴")
     ("\\tile" . "⍴")
     ("\\reshape" . "⍴")
@@ -138,6 +146,7 @@
     ("`A" . "⍶")    ; alpha-underbar
     ("`s" . "⌈")    ; left-ceiling
     ("`d" . "⌊")    ; left-floor
+    ("\\floor" . "⌊")    ; left-floor
     ("`f" . "_")    ; underscore
     ("`F" . "⍫")    ; del-tilde
     ("`g" . "∇")    ; nabla
@@ -151,7 +160,10 @@
     ("\\quad" . "⎕")    ; quad
     ("`L" . "⌷")    ; squish-quad
     ("`;" . "⍎")    ; down-tack-jot
+    ("\\execute" . "⍎")    ; down-tack-jot
+    ("\\hydrant" . "⍎")    ; down-tack-jot
     ("`:" . "≡")    ; identical-to
+    ("\\match" . "≡")    ; identical-to
     ("`'" . "⍕")    ; up-tack-jot
     ("`\"" . "≢")   ; not-identical-to
     ("`\\tally" . "≢")
@@ -161,6 +173,8 @@
     ("\\enclose" . "⊂")
     ("`x" . "⊃")    ; superset-of
     ("\\pick" . "⊃")    ; superset-of
+    ("\\first" . "⊃")    ; superset-of
+    ("\\disclose" . "⊃")    ; superset-of
     ("`X" . "χ")    ; greek-letter-chi
     ("`c" . "∩")    ; intersection
     ("`C" . "⍧")    ; left-shoe-stile
