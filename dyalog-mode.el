@@ -107,6 +107,8 @@
     ("`e" . "∊")    ; epsilon
     ("\\epsilon" . "∊")    ; epsilon
     ("\\enlist" . "∊")    ; epsilon
+    ("\\in" . "∊")    ; epsilon
+    ("\\contains" . "∊")    ; epsilon
     ("`E" . "⍷")    ; epsilon-underbar
     ("\\find" . "⍷")    ; epsilon-underbar
     ("\\rho" . "⍴")
@@ -125,6 +127,7 @@
     ("`i" . "⍳")    ; iota
     ("\\iota" . "⍳")    ; iota
     ("`I" . "⍸")    ; iota-underbar
+    ("\\where" . "⍸")    ; iota-underbar
     ("`o" . "○")    ; circle
     ("`O" . "⍥")    ; circle-diaeresis
     ("`p" . "⋆")    ; star-operator
@@ -132,6 +135,7 @@
     ("`[" . "←")    ; leftarrow
     ("\\gets" . "←")    ; leftarrow
     ("\\=" . "←")    ; leftarrow
+    ("`=" . "←")    ; leftarrow
     ("<-" . "←")    ; leftarrow
     ("`{" . "⍞")    ; quote-quad
     ("\\quotequad" . "⍞")
@@ -196,6 +200,8 @@
     ("`ie" . "¡")   ; inverted-exclamation-mark
     ("`qb" . "⍂")   ; quad-backslash
     ("`iq" . "¿")   ; inverted-question-mark
+
+    ("\\partition" . "⊆") ; subset-of
     ))
 
 (quail-select-package "apl-dot")
