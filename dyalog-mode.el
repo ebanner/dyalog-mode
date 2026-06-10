@@ -93,7 +93,7 @@
     ("`0" . "∧")    ; logical-and
     ("\\and" . "∧")    ; logical-and
     ("`)" . "⍲")    ; up-caret-tilde
-    ("`-" . "×")    ; multiplication-sign
+    ("`-" . "←")    ; division-sign
     ("\\times" . "×")    ; multiplication-sign
     ("\\signum" . "×")    ; multiplication-sign
     ("`_" . "!")    ; exclamation-mark
@@ -104,12 +104,12 @@
     ;; First row
     ("`q" . "?")    ; question-mark
     ("`w" . "⍵")    ; omega
-    ("\\omega" . "⍵")    ; omega
+    ("`omega" . "⍵")    ; omega
     ("`W" . "⍹")    ; omega-underbar
     ("`e" . "∊")    ; epsilon
     ("\\epsilon" . "∊")    ; epsilon
     ("\\enlist" . "∊")    ; epsilon
-    ("\\in" . "∊")    ; epsilon
+    ("`in" . "∊")    ; epsilon
     ("\\contains" . "∊")    ; epsilon
     ("`E" . "⍷")    ; epsilon-underbar
     ("\\find" . "⍷")    ; epsilon-underbar
@@ -128,7 +128,7 @@
     ("`u" . "↓")    ; downarrow
     ("\\drop" . "↓")    ; downarrow
     ("`i" . "⍳")    ; iota
-    ("\\iota" . "⍳")    ; iota
+    ("`iota" . "⍳")    ; iota
     ("`I" . "⍸")    ; iota-underbar
     ("\\where" . "⍸")    ; iota-underbar
     ("`o" . "○")    ; circle
@@ -153,6 +153,7 @@
     ("`a" . "⍺")    ; alpha
     ("`A" . "⍶")    ; alpha-underbar
     ("`s" . "⌈")    ; left-ceiling
+    ("\\ceil" . "⌈")    ; left-ceiling
     ("`d" . "⌊")    ; left-floor
     ("\\floor" . "⌊")    ; left-floor
     ("`f" . "_")    ; underscore
@@ -161,10 +162,11 @@
     ("`h" . "∆")    ; increment
     ("`H" . "⍙")    ; delta-underbar
     ("`j" . "∘")    ; ring-operator
-    ("\\jot" . "∘")    ; ring-operator
+    ("`jot" . "∘")    ; ring-operator
     ("\\compose" . "∘")    ; ring-operator
     ("\\bind" . "∘")    ; ring-operator
     ("`J" . "⍤")    ; jot-diaeresis
+    ("\\rank" . "⍤")    ; jot-diaeresis
     ("`k" . "'")    ; apostrophe
     ("`K" . "⌺")    ; quad-diamond
     ("`l" . "⎕")    ; quad
@@ -177,7 +179,7 @@
     ("\\match" . "≡")    ; identical-to
     ("`'" . "⍕")    ; up-tack-jot
     ("`\"" . "≢")   ; not-identical-to
-    ("`\\tally" . "≢")
+    ("\\tally" . "≢")
 
     ;; Third row
     ("`z" . "⊂")    ; subset-of
