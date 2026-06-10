@@ -131,7 +131,7 @@
     ("`iota" . "⍳")    ; iota
     ("`I" . "⍸")    ; iota-underbar
     ("\\where" . "⍸")    ; iota-underbar
-    ("`o" . "○")    ; circle
+    ;; ("`o" . "○")    ; circle
     ("`O" . "⍥")    ; circle-diaeresis
     ("`p" . "⋆")    ; star-operator
     ("`P" . "⍣")    ; star-diaeresis
@@ -172,11 +172,13 @@
     ("`l" . "⎕")    ; quad
     ("\\quad" . "⎕")    ; quad
     ("`L" . "⌷")    ; squish-quad
+    ("\\squad" . "⌷")    ; squish-quad
     ("`;" . "⍎")    ; down-tack-jot
     ("\\execute" . "⍎")    ; down-tack-jot
     ("\\hydrant" . "⍎")    ; down-tack-jot
     ("`:" . "≡")    ; identical-to
     ("\\match" . "≡")    ; identical-to
+    ("\\depth" . "≡")    ; identical-to
     ("`'" . "⍕")    ; up-tack-jot
     ("`\"" . "≢")   ; not-identical-to
     ("\\tally" . "≢")
