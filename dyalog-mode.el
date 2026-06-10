@@ -192,6 +192,7 @@
     ("`c" . "∩")    ; intersection
     ("`C" . "⍧")    ; left-shoe-stile
     ("`v" . "∪")    ; union
+    ("`unique" . "∪")    ; union
     ("`b" . "⊥")    ; up-tack
     ("`B" . "£")    ; pound-sign
     ("`n" . "⊤")    ; down-tack
