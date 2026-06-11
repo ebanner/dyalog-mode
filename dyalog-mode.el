@@ -82,6 +82,7 @@
     ("`6" . "≥")    ; greater-than-or-equal-to
     ("\\geq" . "≥")    ; greater-than-or-equal-to
     ("`^" . "⍉")    ; circle-backslash
+    ("\\transpose" . "⍉")    ; circle-backslash
     ("`7" . ">")    ; greater-than
     ("`&" . "⊖")    ; circled-minus
     ("`8" . "≠")    ; not-equal-to
@@ -135,6 +136,7 @@
     ("`O" . "⍥")    ; circle-diaeresis
     ("`p" . "⋆")    ; star-operator
     ("`P" . "⍣")    ; star-diaeresis
+    ("\\power" . "⍣")    ; star-diaeresis
     ("`[" . "←")    ; leftarrow
     ("\\gets" . "←")    ; leftarrow
     ("\\=" . "←")    ; leftarrow
@@ -151,6 +153,7 @@
 
     ;; Second row
     ("`a" . "⍺")    ; alpha
+    ("\\alpha" . "⍺")    ; alpha
     ("`A" . "⍶")    ; alpha-underbar
     ("`s" . "⌈")    ; left-ceiling
     ("\\ceil" . "⌈")    ; left-ceiling
@@ -180,6 +183,7 @@
     ("\\match" . "≡")    ; identical-to
     ("\\depth" . "≡")    ; identical-to
     ("`'" . "⍕")    ; up-tack-jot
+    ("\\format" . "⍕")    ; up-tack-jot
     ("`\"" . "≢")   ; not-identical-to
     ("\\tally" . "≢")
 
