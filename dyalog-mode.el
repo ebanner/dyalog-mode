@@ -124,6 +124,7 @@
     ("`y" . "↑")    ; uparrow
     ("\\up" . "↑")    ; uparrow
     ("\\mix" . "↑")    ; uparrow
+    ("`mix" . "↑")    ; uparrow
     ("\\take" . "↑")    ; uparrow
     ("`Y" . "¥")    ; yen-sign
     ("`u" . "↓")    ; downarrow
@@ -202,7 +203,7 @@
     ("`b" . "⊥")    ; up-tack
     ("`B" . "£")    ; pound-sign
     ("`n" . "⊤")    ; down-tack
-    ("`m" . "|")    ; divides
+    ;; ("`m" . "|")    ; divides
     ("\\lantern" . "⍝")
     ("\\lamp" . "⍝")
     ("`<" . "⍪")    ; comma-bar
