@@ -66,7 +66,7 @@
     ("\\each" . "¨")    ; diaeresis
     ("`!" . "⌶")    ; i-beam
     ("`2" . "¯")    ; macron
-    ("\\minus" . "¯")    ; macron
+    ("`minus" . "¯")    ; macron
     ("`@" . "⍫")    ; del-tilde
     ("`3" . "<")    ; less-than
     ("`#" . "⍒")    ; del-stile
@@ -89,7 +89,7 @@
     ("\\ne" . "≠")    ; not-equal-to
     ("`*" . "⍟")    ; circle-star
     ("`9" . "∨")    ; logical-or
-    ("\\or" . "∨")    ; logical-or
+    ("`or" . "∨")    ; logical-or
     ("`(" . "⍱")    ; down-caret-tilde
     ("`0" . "∧")    ; logical-and
     ("\\and" . "∧")    ; logical-and
@@ -135,9 +135,9 @@
     ("\\where" . "⍸")    ; iota-underbar
     ;; ("`o" . "○")    ; circle
     ("`O" . "⍥")    ; circle-diaeresis
-    ("`p" . "⋆")    ; star-operator
+    ;; ("`p" . "⋆")    ; star-operator
     ("`P" . "⍣")    ; star-diaeresis
-    ("\\power" . "⍣")    ; star-diaeresis
+    ("`power" . "⍣")    ; star-diaeresis
     ("`[" . "←")    ; leftarrow
     ("\\gets" . "←")    ; leftarrow
     ("\\=" . "←")    ; leftarrow
@@ -201,6 +201,7 @@
     ("`v" . "∪")    ; union
     ("`unique" . "∪")    ; union
     ("`b" . "⊥")    ; up-tack
+    ("\\decode" . "⊥")    ; up-tack
     ("`B" . "£")    ; pound-sign
     ("`n" . "⊤")    ; down-tack
     ;; ("`m" . "|")    ; divides
