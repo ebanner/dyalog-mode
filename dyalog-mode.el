@@ -121,6 +121,8 @@
     ("`t" . "∼")    ; tilde
     ("`T" . "⍨")    ; tilde-diaeresis
     ("\\commute" . "⍨")    ; tilde-diaeresis
+    ("\\selfie" . "⍨")    ; tilde-diaeresis
+    ("\\reflex" . "⍨")    ; tilde-diaeresis
     ("`y" . "↑")    ; uparrow
     ("\\up" . "↑")    ; uparrow
     ("\\mix" . "↑")    ; uparrow
@@ -173,7 +175,7 @@
     ("\\rank" . "⍤")    ; jot-diaeresis
     ("`k" . "'")    ; apostrophe
     ("`K" . "⌺")    ; quad-diamond
-    ("`l" . "⎕")    ; quad
+    ;; ("`l" . "⎕")    ; quad
     ("\\quad" . "⎕")    ; quad
     ("`L" . "⌷")    ; squish-quad
     ("\\squad" . "⌷")    ; squish-quad
@@ -205,8 +207,8 @@
     ("`B" . "£")    ; pound-sign
     ("`n" . "⊤")    ; down-tack
     ;; ("`m" . "|")    ; divides
-    ("\\lantern" . "⍝")
-    ("\\lamp" . "⍝")
+    ("`lantern" . "⍝")
+    ("`lamp" . "⍝")
     ("`<" . "⍪")    ; comma-bar
     ("\\cove" . "⍪")    ; comma-bar
     ("\\table" . "⍪")    ; comma-bar
