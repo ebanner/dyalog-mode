@@ -257,11 +257,17 @@
   (let ((text (string-trim
                (if (use-region-p)
                    (buffer-substring (region-beginning) (region-end))
-                 (thing-at-point 'line t)))))
+                 (thing-at-point 'line t))))
+        (win (get-buffer-window "*Dyalog*")))
 
     (with-current-buffer (get-buffer "*Dyalog*")
+      (goto-char (point-max))
       (insert text)
-      (comint-send-input))))
+      (comint-send-input))
+
+    (when win
+      (set-window-point win (with-current-buffer "*Dyalog*" (point-max))))))
+
 
 (define-key
  gnu-apl-mode-map
