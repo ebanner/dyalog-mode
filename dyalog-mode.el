@@ -254,9 +254,13 @@
 (defun my-send-line-to-dyalog ()
   (interactive)
 
-  (let ((line (string-trim (thing-at-point 'line t))))
+  (let ((text (string-trim
+               (if (use-region-p)
+                   (buffer-substring (region-beginning) (region-end))
+                 (thing-at-point 'line t)))))
+
     (with-current-buffer (get-buffer "*Dyalog*")
-      (insert line)
+      (insert text)
       (comint-send-input))))
 
 (define-key
