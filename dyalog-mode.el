@@ -173,7 +173,7 @@
     ("\\bind" . "∘")    ; ring-operator
     ("`J" . "⍤")    ; jot-diaeresis
     ("\\rank" . "⍤")    ; jot-diaeresis
-    ("`k" . "'")    ; apostrophe
+    ;; ("`k" . "'")    ; apostrophe
     ("`K" . "⌺")    ; quad-diamond
     ;; ("`l" . "⎕")    ; quad
     ("\\quad" . "⎕")    ; quad
@@ -194,7 +194,7 @@
     ("`z" . "⊂")    ; subset-of
     ("\\enclose" . "⊂")
     ("`x" . "⊃")    ; superset-of
-    ("\\pick" . "⊃")    ; superset-of
+    ("`pick" . "⊃")    ; superset-of
     ("\\first" . "⊃")    ; superset-of
     ("\\disclose" . "⊃")    ; superset-of
     ("`X" . "χ")    ; greek-letter-chi
@@ -209,6 +209,7 @@
     ;; ("`m" . "|")    ; divides
     ("`lantern" . "⍝")
     ("`lamp" . "⍝")
+    ("`<" . "⍪")    ; comma-bar
     ("`<" . "⍪")    ; comma-bar
     ("\\cove" . "⍪")    ; comma-bar
     ("\\table" . "⍪")    ; comma-bar
@@ -225,6 +226,7 @@
     ("`iq" . "¿")   ; inverted-question-mark
 
     ("\\partition" . "⊆") ; subset-of
+    ("`key" . "⌸") ; key
     ))
 
 (quail-select-package "apl-dot")
