@@ -183,7 +183,7 @@
     ("\\execute" . "⍎")    ; down-tack-jot
     ("\\hydrant" . "⍎")    ; down-tack-jot
     ("`:" . "≡")    ; identical-to
-    ("\\match" . "≡")    ; identical-to
+    ("`match" . "≡")    ; identical-to
     ("\\depth" . "≡")    ; identical-to
     ("`'" . "⍕")    ; up-tack-jot
     ("\\format" . "⍕")    ; up-tack-jot
