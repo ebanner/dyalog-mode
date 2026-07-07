@@ -226,7 +226,7 @@
     ("`qb" . "⍂")   ; quad-backslash
     ("`iq" . "¿")   ; inverted-question-mark
 
-    ("\\partition" . "⊆") ; subset-of
+    ("`partition" . "⊆") ; subset-of
     ("`key" . "⌸") ; key
     ))
 
