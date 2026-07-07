@@ -153,6 +153,7 @@
     ("`}" . "⍬")    ; zilde
     ("\\righttack" . "⊢")
     ("`|" . "⊣")    ; left-tack
+    ("`lefttack" . "⊣")    ; left-tack
 
     ;; Second row
     ("`a" . "⍺")    ; alpha
