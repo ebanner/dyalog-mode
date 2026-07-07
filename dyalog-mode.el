@@ -86,7 +86,7 @@
     ("`7" . ">")    ; greater-than
     ("`&" . "⊖")    ; circled-minus
     ("`8" . "≠")    ; not-equal-to
-    ("\\ne" . "≠")    ; not-equal-to
+    ("`ne" . "≠")    ; not-equal-to
     ("`*" . "⍟")    ; circle-star
     ("`9" . "∨")    ; logical-or
     ("`or" . "∨")    ; logical-or
@@ -173,6 +173,7 @@
     ("\\bind" . "∘")    ; ring-operator
     ("`J" . "⍤")    ; jot-diaeresis
     ("\\rank" . "⍤")    ; jot-diaeresis
+    ("\\atop" . "⍤")    ; jot-diaeresis
     ;; ("`k" . "'")    ; apostrophe
     ("`K" . "⌺")    ; quad-diamond
     ;; ("`l" . "⎕")    ; quad
