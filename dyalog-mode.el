@@ -169,8 +169,9 @@
     ("`g" . "∇")    ; nabla
     ("`h" . "∆")    ; increment
     ("`H" . "⍙")    ; delta-underbar
-    ("`j" . "∘")    ; ring-operator
+    ;; ("`j" . "∘")    ; ring-operator
     ("`jot" . "∘")    ; ring-operator
+    ("\\beside" . "∘")    ; ring-operator
     ("\\compose" . "∘")    ; ring-operator
     ("\\bind" . "∘")    ; ring-operator
     ("`J" . "⍤")    ; jot-diaeresis
