@@ -137,6 +137,7 @@
     ("\\where" . "⍸")    ; iota-underbar
     ;; ("`o" . "○")    ; circle
     ("`O" . "⍥")    ; circle-diaeresis
+    ("`over" . "⍥")    ; circle-diaeresis
     ;; ("`p" . "⋆")    ; star-operator
     ("`P" . "⍣")    ; star-diaeresis
     ("`power" . "⍣")    ; star-diaeresis
