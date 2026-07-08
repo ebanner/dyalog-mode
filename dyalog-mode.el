@@ -72,19 +72,21 @@
     ("`#" . "⍒")    ; del-stile
     ("\\gradedown" . "⍒")    ; del-stile
     ("`4" . "≤")    ; less-than-or-equal-to
-    ("\\leq" . "≤")    ; less-than-or-equal-to
+    ("`leq" . "≤")    ; less-than-or-equal-to
     ("`$" . "⍋")    ; delta-stile
     ("\\gradeup" . "⍋")    ; delta-stile
     ("`5" . "=")    ; equals
     ("`%" . "⌽")    ; circle-stile
     ("\\reverse" . "⌽")    ; circle-stile
     ("\\reversal" . "⌽")    ; circle-stile
+    ("\\rotate" . "⌽")    ; circle-stile
     ("`6" . "≥")    ; greater-than-or-equal-to
     ("\\geq" . "≥")    ; greater-than-or-equal-to
     ("`^" . "⍉")    ; circle-backslash
     ("\\transpose" . "⍉")    ; circle-backslash
     ("`7" . ">")    ; greater-than
     ("`&" . "⊖")    ; circled-minus
+    ("\\flip" . "⊖")    ; circled-minus
     ("`8" . "≠")    ; not-equal-to
     ("`ne" . "≠")    ; not-equal-to
     ("`*" . "⍟")    ; circle-star
