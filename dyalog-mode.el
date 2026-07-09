@@ -154,6 +154,7 @@
     ("\\qq" . "⍞")
     ("`]" . "→")    ; rightarrow
     ("`}" . "⍬")    ; zilde
+    ("`zilde" . "⍬")    ; zilde
     ("\\righttack" . "⊢")
     ("`|" . "⊣")    ; left-tack
     ("`lefttack" . "⊣")    ; left-tack
@@ -197,7 +198,7 @@
     ("\\tally" . "≢")
 
     ;; Third row
-    ("`z" . "⊂")    ; subset-of
+    ;; ("`z" . "⊂")    ; subset-of
     ("\\enclose" . "⊂")
     ("`x" . "⊃")    ; superset-of
     ("`pick" . "⊃")    ; superset-of
