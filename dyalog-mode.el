@@ -154,7 +154,7 @@
     ("\\qq" . "⍞")
     ("`]" . "→")    ; rightarrow
     ("`}" . "⍬")    ; zilde
-    ("`zilde" . "⍬")    ; zilde
+    ("\\zilde" . "⍬")    ; zilde
     ("\\righttack" . "⊢")
     ("`|" . "⊣")    ; left-tack
     ("`lefttack" . "⊣")    ; left-tack
