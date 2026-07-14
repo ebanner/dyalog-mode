@@ -170,6 +170,7 @@
     ("`f" . "_")    ; underscore
     ("`F" . "⍫")    ; del-tilde
     ("`g" . "∇")    ; nabla
+    ("\\del" . "∇")    ; nabla
     ("`h" . "∆")    ; increment
     ("`H" . "⍙")    ; delta-underbar
     ;; ("`j" . "∘")    ; ring-operator
@@ -182,6 +183,7 @@
     ("\\atop" . "⍤")    ; jot-diaeresis
     ;; ("`k" . "'")    ; apostrophe
     ("`K" . "⌺")    ; quad-diamond
+    ("\\stencil" . "⌺")    ; quad-diamond
     ;; ("`l" . "⎕")    ; quad
     ("\\quad" . "⎕")    ; quad
     ("`L" . "⌷")    ; squish-quad
