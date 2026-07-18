@@ -133,6 +133,7 @@
     ("`Y" . "¥")    ; yen-sign
     ("`u" . "↓")    ; downarrow
     ("\\drop" . "↓")    ; downarrow
+    ("\\down" . "↓")    ; downarrow
     ("`i" . "⍳")    ; iota
     ("`iota" . "⍳")    ; iota
     ("`I" . "⍸")    ; iota-underbar
